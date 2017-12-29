@@ -1,0 +1,30 @@
+//example of this keyword.
+public class Sudent1 {
+
+	int id;
+	String name;
+
+	Sudent1(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	void display() {
+		System.out.println(id + " " + name);
+	}
+
+	public static void main(String[] args) {
+		Sudent1 s1 = new Sudent1(11, "Binay");
+		Sudent1 s2 = new Sudent1(110, "Dipesh");
+
+		s1.display();
+		s2.display();
+	}
+
+}
+
+Output:-
+........................
+11 Binay
+110 Dipesh
+
